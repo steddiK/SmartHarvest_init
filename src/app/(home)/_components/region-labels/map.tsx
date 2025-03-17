@@ -4,12 +4,13 @@ import jsVectorMap from "jsvectormap";
 import { useEffect } from "react";
 
 import "@/js/us-aea-en";
+import "@/js/madagascar";
 
 export default function Map() {
   useEffect(() => {
     new jsVectorMap({
       selector: "#mapOne",
-      map: "us_aea_en",
+      map: "madagascar",
       zoomButtons: true,
       regionStyle: {
         initial: {
