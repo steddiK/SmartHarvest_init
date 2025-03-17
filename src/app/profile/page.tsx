@@ -9,7 +9,7 @@ import { SocialAccounts } from "./_components/social-accounts";
 
 export default function Page() {
   const [data, setData] = useState({
-    name: "Danish Heilium",
+    name: "Steddi Karen",
     profilePhoto: "/images/user/user-03.png",
     coverPhoto: "/images/cover/cover-01.png",
   });
